@@ -23,6 +23,11 @@ body {
       font-weight: 400;
     }
 
+    p {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
   .but {
       border-radius: 50px;
       border-color: #001B59;
@@ -69,13 +74,14 @@ body {
 
       &.mid {
         background-color: white;
+        padding-top: 100px;
+        padding-bottom: 50px;
       }
 
       &.foot {
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 40px;
         background-color: #e4fdff;
       }
     }
-
 }
